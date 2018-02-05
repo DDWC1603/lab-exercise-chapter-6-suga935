@@ -2,20 +2,23 @@
 //hasilkan program anda dengan menggunakan array
 
 
-int array[10];
-int sum;
-int x;
+#include <iostream>
+#include <conio.h>
+using namespace std;
 
-cout<<"Enter the 10 numbers:"<<endl;
-for(x=0;x<10;x++)
-{
-
+int main() {
+   
+    int arr[10];
+    int sum=0;
+    int x;
+    
+    cout<<"enter 10 number"<<endl;
+    for(x=0;x<10;x++)
+    {
+        cin>>arr[x]; 
+        sum=sum+arr[x];
+    }
+    cout<<"sum="<<sum;
+    //std::cin.get;
+    return 0;
 }
-
-cin>>array[x];
-
-sum=sum+array[x];
-
-cout<<"the sum of the 10 numbers : "<<sum<<endl;
-
-std::cin.get();
