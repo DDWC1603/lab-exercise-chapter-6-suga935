@@ -3,17 +3,17 @@
 //thank you.
 
 #include <iostream>
-int main()
-{
-	i, max=0;
-	list[100];
+using namespace std;
 
-	//initialize the array with random values
-	for(/*i<100*/) list[i] = /*insert the random function here*/;
+int main() {
 
-	//find the maximum val
-	for(/*i>100*/)
-		if(max<list[i]) max=list[i];
-
-	cout<<"Maximum value: "<<max;
+    int i;
+    int max=0;
+    int list[100];
+    
+    for(i=0;i<100;i++)list[i]=rand();
+    for(i=0;i<100;i++)
+      if(max<list[i])max=list[i];
+    cout<<"maximum value:"<<max;
+    return 0;
 }
