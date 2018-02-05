@@ -2,14 +2,14 @@
 //display the string below using the string function state below.
 
 #include <iostream>
+#include <string.h>
+using namespace std;
 
-int main()
-{
-	char engkau[10];
+int main() {
 
-	//stringcopy(a,"hello");
-	
-	cout<<engkau;
-
-	return 0;
+    char engkau[10];
+    strcpy(engkau,"hello");
+    
+    cout<<engkau;
+    return 0;
 }
